@@ -16,6 +16,8 @@
     "typescript": "~3.7.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "lint": "react-scripts start",
     "build": "react-scripts build",
@@ -36,5 +38,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "https://annacheba.github.io/family-tree"
 }
